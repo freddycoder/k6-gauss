@@ -7,7 +7,7 @@ Generate fluctuation in load testing with k6.
 Copy the gaussian.js file in your project and import the script and functions.
 
 ```
-import { gaussian, gaussianStages, randn_bm } from './gaussian.js'
+import { gaussian, gaussianStages, randn_bm } from 'https://raw.githubusercontent.com/freddycoder/k6-gauss/main/gaussian.js'
 ```
 
 ## Create the list of stages using the gaussianStages function
